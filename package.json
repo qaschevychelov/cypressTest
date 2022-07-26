@@ -1,0 +1,16 @@
+{
+  "name": "cypresstestproject",
+  "version": "1.0.0",
+  "description": "test project with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "schevychelov",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
