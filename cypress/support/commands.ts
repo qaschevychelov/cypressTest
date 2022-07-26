@@ -26,6 +26,7 @@ import {loginPage} from "../pages/loginPage"
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 
+
 Cypress.Commands.add('login', (phone, pass) => {
     loginPage.getPhone().type(atob(phone))
     loginPage.getLoginBtn().click()

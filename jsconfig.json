@@ -2,5 +2,5 @@
     "compilerOptions": {
       "types": ["cypress"]
     },
-    "include": ["cypress/**/*.js"]
+    "include": ["cypress/**/*.js", "cypress/support/index.d.ts", "cypress/support/commands.ts", "cypress/e2e/1-getting-started/vkTest.cy.ts", "cypress/pages/loginPage.ts"]
   }

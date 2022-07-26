@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node", "cypress-xpath"]
+    },
+    "include": ["**/*.ts"]
+  }

@@ -11,6 +11,7 @@
   "author": "schevychelov",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.3.1"
+    "cypress": "^10.3.1",
+    "typescript": "^4.7.4"
   }
 }
