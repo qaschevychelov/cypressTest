@@ -1,6 +1,7 @@
+/// <reference types="cypress" />
+
 let user = require('../../fixtures/profile.json')
 let loginPage = require('../../pages/loginPage')
-/// <reference types="cypress" />
 
 // детали по работе с cypress можно почитать по ссылке:
 // https://on.cypress.io/introduction-to-cypress

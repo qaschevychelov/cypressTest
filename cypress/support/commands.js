@@ -1,4 +1,4 @@
-import {loginPage} from "./../pages/loginPage"
+import {loginPage} from "../pages/loginPage"
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -29,6 +29,6 @@ import {loginPage} from "./../pages/loginPage"
 Cypress.Commands.add('login', (phone, pass) => {
     loginPage.getPhone().type(atob(phone))
     loginPage.getLoginBtn().click()
-    loginPage.getPass(atob(pass))
+    loginPage.getPass().type(atob(pass))
     loginPage.getContinueBtn().click()
 })
